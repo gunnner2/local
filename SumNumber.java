@@ -28,6 +28,12 @@ public class SumNumber {
 
         System.out.println("The sum of the largest number among " + num1 + ", " + num2 + ", and " + num3 + " is: " + sumOfLargest);
 
+        double sum2 = num1 + num2 + num3;
+        double average = sum2 / 3;
+
+        System.out.println("The average of " + num1 + ", " + num2 + ", and " + num3 + " is: " + average);
+
+
         input.close();
     }
 }
